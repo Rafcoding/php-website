@@ -16,8 +16,13 @@
       </a>
     </div><!-- banner -->
 
-    <div class="navbar">
-
+    <div id="navbar">
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="team.php">Team</a></li>
+        <li><a href="campaigns.php">Campaigns</a></li>
+        <li><a href="contact.php">Contact</a></li>
+      </ul>
     </div><!-- navbar -->
 
     <div class="content">
@@ -30,7 +35,7 @@
 
         <div class="column three">
           <strong>Adress</strong>
-          1 Baltimore Whar, E14, London
+          1 Baltimore Whar, London
         </div><!-- columns -->
 
         <div class="column three last">

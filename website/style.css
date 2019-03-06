@@ -5,8 +5,16 @@
 	padding: 0;
 }
 
+
 body {
-      background-color: blue;
+	/* background: #f5f4f1 url('/assets/img/bg.jpg'); */
+	font-family: 'Circular', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	line-height: 20px;
+    background-color: blue;
+	color: black;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
 }
 
 /* LAYOUT */
@@ -41,10 +49,26 @@ small {
 }
 
 img {
-  width: 615px;
-height: 400px;
+ width: 100%;
 }
+
+a:link, a:visited {
+	color: #8ca757;
 }
+
+a:hover {
+	color: #7a9347;
+}
+
+ul, ol {
+	margin: 0 0 10px 18px;
+}
+
+ul li, ol li {
+	margin: 0 0 15px;
+}
+
+
 /* Final example website */
 
  #website .container {
@@ -59,6 +83,8 @@ height: 400px;
 
 #website #navbar {
 	margin: -27px 0 0;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 #website #navbar ul {
@@ -75,17 +101,16 @@ height: 400px;
 
 #website #navbar ul li a {
 	display: block;
-	background: #353535;
-	outline: solid 2px #353535;
+	background: #1DB954;
 	border: solid 2px white;
 	color: white;
 	padding: 10px 15px;
 	text-decoration: none;
+  border-radius: 500px;
 }
 
 #website #navbar ul li a:hover {
-	background: #8ca757;
-	outline: solid 2px #8ca757;
+	background: #1ED760;
 }
 
 /* #website #philosophy {
@@ -207,21 +232,7 @@ p {
 	margin: 0 0 20px;
 }
 
-a:link, a:visited {
-	color: #8ca757;
-}
 
-a:hover {
-	color: #7a9347;
-}
-
-ul, ol {
-	margin: 0 0 10px 18px;
-}
-
-ul li, ol li {
-	margin: 0 0 15px;
-}
 
 hr {
 	border: none;
