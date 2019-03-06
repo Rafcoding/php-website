@@ -12,7 +12,7 @@
 
     <div class="banner">
       <a href="/" title="Home">
-        <img src="images/chris-tom-final.jpg" alt="banner-img">
+        <img src="https://highonscore.com/wp-content/uploads/2017/05/Concert-Live-Music-l1.jpg" alt="banner-img">
       </a>
     </div><!-- banner -->
 

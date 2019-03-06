@@ -11,7 +11,7 @@ body {
 	font-family: 'Circular', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 20px;
-    background-color: blue;
+  background-image: linear-gradient(to left bottom, rgba(190, 233, 255, 1), rgb(138,43,226, 1));
 	color: black;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
@@ -25,9 +25,9 @@ body {
 	padding: 40px;
 	background: white;
 	text-align: center;
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
+  border: solid black 5px;
+  border-radius: 5px;
+
 }
 
 small {
@@ -101,7 +101,7 @@ ul li, ol li {
 
 #website #navbar ul li a {
 	display: block;
-	background: #1DB954;
+	background: #1ED760;
 	border: solid 2px white;
 	color: white;
 	padding: 10px 15px;
@@ -110,7 +110,7 @@ ul li, ol li {
 }
 
 #website #navbar ul li a:hover {
-	background: #1ED760;
+	background: #1DB954;
 }
 
 /* #website #philosophy {
