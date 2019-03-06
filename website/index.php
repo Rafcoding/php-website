@@ -3,7 +3,8 @@
 <head>
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
-  <title>Music All Day</title>
+  <link rel="shortcut icon" href="http://www.iconarchive.com/download/i79927/dtafalonso/ios7-desktop/iTunes.ico">
+  <title>Music All Day - Musicfy</title>
 </head>
 
 <body id="website">
@@ -35,7 +36,7 @@
 
         <div class="column three">
           <strong>Adress</strong>
-          1 Baltimore Whar, London
+          1 Baltimore Wharf, London
         </div><!-- columns -->
 
         <div class="column three last">
