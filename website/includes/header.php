@@ -1,4 +1,5 @@
 <?php
+  $poweredBy = "Powered by Rafa Ruiz";
   include('includes/arrays.php');
  ?>
 
@@ -9,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <meta charset="utf-8">
   <link rel="shortcut icon" href="http://www.iconarchive.com/download/i79927/dtafalonso/ios7-desktop/iTunes.ico">
-  <title>Music All Day - Musicfy</title>
+  <title><?php echo TITLE; ?></title>
 </head>
 
 <body id="website">

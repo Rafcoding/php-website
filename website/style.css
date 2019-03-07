@@ -5,6 +5,9 @@
 	padding: 0;
 }
 
+#justy {
+	text-align: justify;
+}
 
 body {
 	/* background: #f5f4f1 url('/assets/img/bg.jpg'); */
@@ -113,11 +116,11 @@ ul li, ol li {
 	background: #1DB954;
 }
 
-/* #website #philosophy {
+#website .presentation {
 	text-align: center;
 	font-size: 18px;
 	line-height: 22px;
-} */
+}
 
 #website #footer {
 	font-size: 12px;
@@ -149,6 +152,61 @@ ul li, ol li {
 	text-align: center;
 	margin: 40px 0 0;
 }
+
+#website .closed {
+	color: #d13916;
+}
+
+#website .open {
+	color: #67b512;
+}
+
+hr {
+
+	background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+
+	/* border: none; */
+	/* height: 18px; */
+	width: 114px;
+	/* background: url('http://world-of-cliparts.com/images2/trumpet/1/music-notes-png-5a3a6be17b1229.2990139715137781455041.jpg') center center no-repeat; */
+	margin: 20px auto;
+}
+
+#website .member {
+	width: 203px;
+	float: left;
+	margin-right: 45px;
+}
+
+#website .member:last-child {
+	margin: 0;
+}
+
+#website .member img {
+	max-width: 100%;
+}
+
+/* .scallop-up{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+-webkit-background-size: 49px 100%;
+}
+
+.scallop-down{
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
+-webkit-background-size: 49px 100%;
+}
+
+.colour-block {
+  background:#369A7E;
+  width:60%;
+  padding:7% 20% 10% 20%;
+  color:#fff;
+} */
 /* para la linea de cuadro */
 
 /* .container:before, .container:after {
@@ -177,20 +235,7 @@ ul li, ol li {
 
 
 /*
-* {
-	margin: 0;
-	padding: 0;
-}
 
-body {
-	background: #f5f4f1 url('/assets/img/bg.jpg');
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 15px;
-	line-height: 20px;
-	color: #353535;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
-}
 
 
 h1,h2,h3,h4,h5,h6 {
@@ -234,13 +279,7 @@ p {
 
 
 
-hr {
-	border: none;
-	height: 18px;
-	width: 114px;
-	background: url('/assets/img/hr.png') center center no-repeat;
-	margin: 20px auto;
-}
+
 
 
 
@@ -407,27 +446,7 @@ input.button.next {
 
 /*
 
-#final-example .member {
-	width: 203px;
-	float: left;
-	margin-right: 45px;
-}
 
-#final-example .member:last-child {
-	margin: 0;
-}
-
-#final-example .member img {
-	max-width: 100%;
-}
-
-#final-example .closed {
-	color: #d13916;
-}
-
-#final-example .open {
-	color: #67b512;
-}
 
 #menu-items ul {
 	list-style: none;

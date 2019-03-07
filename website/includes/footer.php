@@ -1,4 +1,3 @@
-
       <div id="footer" class="clearfix">
 
         <div class="column three">
@@ -20,11 +19,13 @@
           <em>Sunday</em><br>
           Closed<br><br>
 
+          <?php include('includes/StoreHours.php') ?>
+
         </div><!-- columns -->
 
       </div><!-- footer -->
 
-      <small>&copy;2019 Powered by Rafa Ruiz</small>
+      <small>&copy;<?php echo date('Y'); ?> <?php echo $poweredBy; ?></small>
 
     </div><!-- content -->
 
