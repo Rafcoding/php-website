@@ -19,20 +19,20 @@
 
   //Calculate total price per Year
 
-  // function pricePerYear($price, 12) {
-  //   $totalprice = $price * 12
-  //   echo money_format('%.2n', $totalprice);
-  // }
+  function pricePerYear($price, $months) {
+    $totalprice = $price * $months;
+    echo money_format('%.2n', $totalprice);
+  }
 
  ?>
 
   <hr>
 
   <div id="promo">
-    <h1><?php echo $promotion[title];  ?> <span class="price">£ <?php  echo $promotion[price] ?></span></h1>
+    <h1><?php echo $promotion[title];  ?> <span class="price">£<?php  echo $promotion[price] ?></span></h1><br>
     <p><?php echo $promotion[conditions] ?></p>
-    <br> -->
-    <p><em>Total price per year: <?php  pricePerYear($promotion[price], 12) ?></em></p>
+    <br>
+    <p><em>Price Per Year: £<?php  pricePerYear($promotion[price], 12) ?></em></p>
 
   </div><!-- promo -->
 
