@@ -1,17 +1,17 @@
       <div id="footer" class="clearfix">
 
         <div class="column three">
-          <strong>Phone</strong>
+          <h2><strong>Phone</strong></h2>
           11111111111
         </div><!-- columns -->
 
         <div class="column three">
-          <strong>Adress</strong>
-          1 Baltimore Wharf, London
+          <h2><strong>Adress</strong></h2>
+          1 Baltimore Wharf, E14, London
         </div><!-- columns -->
 
         <div class="column three last">
-          <strong>Office Time</strong>
+          <h2><strong>Office Hours</strong></h2>
           <em>Monday-Friday</em><br>
           9:00am - 5:00pm<br><br>
           <em>Saturday-Friday</em><br>

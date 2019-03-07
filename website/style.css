@@ -56,11 +56,11 @@ img {
 }
 
 a:link, a:visited {
-	color: #8ca757;
+	color: #1ED760;
 }
 
 a:hover {
-	color: #7a9347;
+	color: #1DB954;
 }
 
 ul, ol {
@@ -187,26 +187,19 @@ hr {
 	max-width: 100%;
 }
 
-/* .scallop-up{
-  height:100px;
-  width:100%;
-  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
--webkit-background-size: 49px 100%;
+#promotions ul {
+	list-style: none;
+	margin: 0;
+	/* padding: 20px 0; */
+	text-align: center;
+	font-size: 18px;
 }
 
-.scallop-down{
-  height:100px;
-  width:100%;
-  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#369A7E), color-stop(0.49, #369A7E), color-stop(0.51, #fff), to(white));
--webkit-background-size: 49px 100%;
+#promotions ul li a {
+	text-decoration: none;
+	font-weight: bold;
 }
 
-.colour-block {
-  background:#369A7E;
-  width:60%;
-  padding:7% 20% 10% 20%;
-  color:#fff;
-} */
 /* para la linea de cuadro */
 
 /* .container:before, .container:after {
@@ -448,7 +441,7 @@ input.button.next {
 
 
 
-#menu-items ul {
+#promotions ul {
 	list-style: none;
 	margin: 0;
 	padding: 20px 0;
@@ -456,7 +449,7 @@ input.button.next {
 	font-size: 18px;
 }
 
-#menu-items ul li a {
+#promotions ul li a {
 	text-decoration: none;
 	font-weight: bold;
 }
