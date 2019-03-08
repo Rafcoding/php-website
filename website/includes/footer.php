@@ -2,11 +2,11 @@
 
         <div class="column three">
           <h2><strong>Phone</strong></h2>
-          11111111111
+          07821949668
         </div><!-- columns -->
 
         <div class="column three">
-          <h2><strong>Adress</strong></h2>
+          <h2><strong>Address</strong></h2>
           1 Baltimore Wharf, E14, London
         </div><!-- columns -->
 

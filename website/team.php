@@ -16,7 +16,7 @@
       <div class="member">
         <img src="images/<?php echo $member[img];  ?>.png" alt="<?php echo $member[name] ?>">
         <h3><?php echo $member[name]; ?></h3>
-        <p><?php echo $member[role]; ?></p>
+        <p>"<?php echo $member[role]; ?>"</p>
       </div><!-- member -->
 
     <?php

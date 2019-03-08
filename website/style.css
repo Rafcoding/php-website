@@ -7,17 +7,41 @@
 
 #justy {
 	text-align: justify;
+  font-weight: 900;
 }
 
 body {
-	/* background: #f5f4f1 url('/assets/img/bg.jpg'); */
+
 	font-family: 'Circular', Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	line-height: 20px;
   background-image: linear-gradient(to left bottom, rgba(190, 233, 255, 1), rgb(138,43,226, 1));
-	color: black;
+	color: white;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+}
+
+.green {
+  color: #1ED760;
+}
+
+.conditions {
+  text-align: justify;
+  font-weight: 900;
+  font-size: 18px;
+line-height: 22px;
+}
+
+.exception {
+  text-align: left;
+    font-size: 10px;
+}
+
+.campaigns {
+  text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+    letter-spacing: 0.5px;
 }
 
 /* LAYOUT */
@@ -26,11 +50,10 @@ body {
 	width: 620px;
 	margin: 40px auto;
 	padding: 40px;
-	background: white;
+	background: black;
 	text-align: center;
   border: solid black 5px;
   border-radius: 5px;
-
 }
 
 small {
@@ -105,9 +128,10 @@ ul li, ol li {
 #website #navbar ul li a {
 	display: block;
 	background: #1ED760;
-	border: solid 2px white;
+	/* border: solid 2px white; */
 	color: white;
-	padding: 10px 15px;
+	padding: 8px 32px;
+  letter-spacing: 1.5px;
 	text-decoration: none;
   border-radius: 500px;
 }
@@ -123,14 +147,17 @@ ul li, ol li {
 }
 
 #website #footer {
-	font-size: 12px;
-	line-height: 15px;
-	margin: 60px 0 0 0;
+
+  font-size: 15px;
+line-height: 20px;
+margin: 60px 0 0 0;
+font-weight: 900;
 }
 
 #website #footer strong {
 	display: block;
 	margin: 0 0 20px;
+  font-size: 20px;
 }
 
 #website .column {
@@ -165,11 +192,7 @@ hr {
 
 	background-color: #fff;
 	border-top: 2px dotted #8c8b8b;
-
-	/* border: none; */
-	/* height: 18px; */
 	width: 114px;
-	/* background: url('http://world-of-cliparts.com/images2/trumpet/1/music-notes-png-5a3a6be17b1229.2990139715137781455041.jpg') center center no-repeat; */
 	margin: 20px auto;
 }
 
@@ -177,6 +200,7 @@ hr {
 	width: 203px;
 	float: left;
 	margin-right: 45px;
+  font-weight: 900;
 }
 
 #website .member:last-child {
@@ -190,50 +214,23 @@ hr {
 #promotions ul {
 	list-style: none;
 	margin: 0;
-	/* padding: 20px 0; */
-	text-align: center;
+	text-align: left;
 	font-size: 18px;
 }
 
 #promotions ul li a {
 	text-decoration: none;
 	font-weight: bold;
+  font-size: 30px;
 }
-/* 
 
-.price {
+
+/* .price {
 	float: right;
 	font-size: 18px;
 	font-weight: bold;
 	color: #353535;
 } */
-
-/* para la linea de cuadro */
-
-/* .container:before, .container:after {
-	content: "";
-	position: absolute;
-	top: 5px;
-	left: -5px;
-	width: 100%;
-	height: 100%;
-	background: #97917e;
-	z-index: -1;
-}
-
-.container:before {
-	top: 10px;
-	left: -10px;
-	background: #514933;
-} */
-
-
-
-
-
-
-
-
 
 /*
 

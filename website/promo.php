@@ -29,8 +29,8 @@
   <hr>
 
   <div id="promo">
-    <h1><?php echo $promotion[title];  ?> <span class="price">£<?php  echo $promotion[price] ?></span></h1><br>
-    <p><?php echo $promotion[conditions] ?></p>
+    <h1 class="green"><?php echo $promotion[title];  ?> £<?php  echo $promotion[price] ?></span></h1><br>
+    <p class="conditions">Conditions: <?php echo $promotion[conditions] ?></p>
     <br>
     <p><em>Price Per Year: £<?php  pricePerYear($promotion[price], 12) ?></em></p>
 
@@ -38,6 +38,6 @@
 
   <hr>
 
-  <a href="campaigns.php" class="button previous">&laquo; Back to Campaigns</a>
+  <a href="campaigns.php" class="campaigns">&laquo; Back to Campaigns</a>
 
 <?php include('includes/footer.php'); ?>
