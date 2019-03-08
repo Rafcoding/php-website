@@ -1,0 +1,480 @@
+/* Base */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#justy {
+  text-align: justify;
+  font-weight: 900;
+}
+
+
+body {
+  font-family: 'Circular', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  /* background-image: linear-gradient(to left bottom, rgba(190, 233, 255, 1), rgb(138,43,226, 1)); */
+  background: #222326;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+.green {
+  color: #1ED760;
+  font-weight: 900;
+}
+
+.conditions {
+  text-align: justify;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.exception {
+  text-align: left;
+  font-size: 10px;
+}
+
+.campaigns {
+  text-transform: uppercase;
+  font-weight: 900;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+
+.container {
+  position: relative;
+  width: 620px;
+  margin: 40px auto;
+  padding: 40px;
+  background: black;
+  text-align: center;
+  border: solid black 5px;
+  border-radius: 5px;
+}
+
+small {
+  font-size: 12px;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+img {
+  width: 100%;
+}
+
+a:link, a:visited {
+  color: #1ED760;
+}
+
+a:hover {
+  color: #1DB954;
+}
+
+ul, ol {
+  margin: 0 0 10px 18px;
+}
+
+ul li, ol li {
+  margin: 0 0 15px;
+}
+
+
+/* Final example website */
+
+#website .container {
+  width: 800px;
+  padding: 0;
+}
+
+#website .content {
+  padding: 20px 50px 50px;
+  text-align: left;
+}
+
+#website #navbar {
+  margin: -27px 0 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#website #navbar ul {
+  display: inline-block;
+  list-style: none;
+  text-align: left;
+}
+
+#website #navbar ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+
+#website #navbar ul li a {
+  display: block;
+  background: #1ED760;
+  color: white;
+  padding: 8px 32px;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  border-radius: 500px;
+}
+
+#website #navbar ul li a:hover {
+  background: #1DB954;
+}
+
+#website .presentation {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#website #footer {
+  font-size: 15px;
+  line-height: 20px;
+  margin: 60px 0 0 0;
+  font-weight: 900;
+}
+
+#website #footer strong {
+  display: block;
+  margin: 0 0 20px;
+  font-size: 20px;
+}
+
+#website .column {
+  display: block;
+  float: left;
+}
+
+#website .column.three {
+  width: 203px;
+  margin-right: 45px;
+}
+
+#website .column.last {
+  margin: 0;
+}
+
+#website small {
+  display: block;
+  text-align: center;
+  margin: 40px 0 0;
+}
+
+#website .closed {
+  color: #d13916;
+}
+
+
+#website .open {
+    color: #1ED760;
+}
+
+hr {
+  background-color: #fff;
+  border-top: 2px dotted #8c8b8b;
+  width: 114px;
+  margin: 20px auto;
+}
+
+#website .member {
+  width: 203px;
+  float: left;
+  margin-right: 45px;
+  font-weight: 900;
+}
+
+#website .member:last-child {
+  margin: 0;
+}
+
+#website .member img {
+  max-width: 80%;
+  margin-bottom: 5px;
+}
+
+#promotions ul {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+#promotions ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+
+
+
+
+/*
+h1,h2,h3,h4,h5,h6 {
+margin: 30px 0;
+font-weight: 200;
+color: red;
+}
+
+h1 {
+font-size: 35px;
+}
+
+h1 small {
+font-size: 25px;
+color: #666;
+}
+
+h2 + p {
+margin-top: -20px;
+}
+
+h3 + p {
+margin-top: -20px;
+}
+
+h2,h3,h4 {
+font-size: 30px;
+}
+
+h4.error {
+color: #faa722;
+}
+
+h5,h6 {
+font-size: 20px;
+}
+
+p {
+margin: 0 0 20px;
+}
+
+
+
+
+
+
+
+blockquote {
+background: white;
+padding: 10px;
+margin: 0 0 15px;
+border-left: solid 4px #d1cbb8;
+font-style: italic;
+}
+
+blockquote p {
+margin: 5px 0 10px;
+}
+
+blockquote code {
+font-style: normal;
+}
+
+code {
+color: #006699;
+font-weight: bold;
+font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+sup {
+font-size: 0.6em;
+} */
+
+/* Layout */
+
+
+
+/*
+#logo {
+width: 240px;
+margin: 0 auto;
+display: block;
+}
+
+.sandbox {
+padding: 20px;
+background: #f8f5f1;
+text-align: left;
+}
+
+aside {
+background: white;
+border: dashed 2px #97917e;
+padding: 10px 20px;
+margin: 40px;
+}
+
+aside h3 {
+font-size: 24px;
+margin-top: 10px;
+}
+
+aside h6 {
+margin: 15px 0 5px;
+}
+
+table {
+width: 100%;
+font-size: 13px;
+background: white;
+margin: 0 0 20px;
+}
+
+table td {
+border-bottom: solid 1px #d1cbb8;
+padding: 4px;
+}
+
+table th {
+background: #8ca757;
+color: white;
+padding: 4px;
+font-weight: normal;
+font-size: 15px;
+} */
+
+/* Global */
+
+.contact {
+  text-align: -webkit-center;
+}
+input {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+a.button, input.button {
+  display: inline-block;
+  color: white;
+  margin: 30px 0;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover, input.button:hover {
+  background: #bbb;
+
+}
+
+.button.prev {
+  background: #1DB954;
+
+}
+
+.button.prev:hover {
+  background: #1DB954;
+
+}
+
+.button.next, input.button.next {
+  background: #1DB954;
+
+}
+
+.button.next:hover, input.button.next:hover {
+  background: #1DB954;
+}
+
+input.button.next {
+text-transform: uppercase;
+display: block;
+background: #1ED760;
+color: white;
+padding: 8px 32px;
+letter-spacing: 1.5px;
+text-decoration: none;
+border-radius: 500px;
+align-items: center;
+border-style: none;
+
+}
+
+
+/*
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+
+/*
+
+.copyright-info h4, .copyright-info h5 {
+margin: 0;
+line-height: 18px;
+font-size: 14px;
+text-align: center;
+}
+
+.copyright-info h4 {
+font-weight: bold;
+}
+
+.copyright-info {
+margin: 20px 0 40px;
+} */
+
+/*
+
+
+
+
+*/
+/* #contact {
+width: 320px;
+margin: 0 auto;
+} */
+
+#contact-form label {
+display: block;
+font-size: 11px;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+/* border: solid 2px #353535; */
+outline: none;
+font-size: 18px;
+padding: 10px;
+margin: 0 0 10px;
+width: 300px;
+/* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+-webkit-font-smoothing: antialiased;
+text-rendering: optimizelegibility;
+}
+
+#contact-form textarea {
+resize: vertical;
+height: 120px;
+}
+
+#contact-form input[type="checkbox"] + label {
+display: inline;
+cursor: pointer;
+}

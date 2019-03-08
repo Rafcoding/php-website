@@ -25,7 +25,7 @@
 
       </div><!-- footer -->
 
-      <small>&copy;<?php echo date('Y'); ?> <?php echo $poweredBy; ?></small>
+      <small>&copy;<?php echo date('Y'); ?> Powered By <span class="green"><?php echo $poweredBy; ?></span></small>
 
     </div><!-- content -->
 

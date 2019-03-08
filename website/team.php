@@ -5,7 +5,7 @@
  ?>
 
   <div id="team-members" class="presentation clearfix">
-    <br><h1>Team Mates</h1><br>
+    <br><h1>Our Team</h1><br>
     <!-- <p>about us bla bla bla</p> -->
     <hr>
 
