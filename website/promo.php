@@ -29,7 +29,7 @@
   <hr>
 
   <div id="promo">
-    <h1 class="green"><?php echo $promotion[title];  ?> £<?php  echo $promotion[price] ?></span></h1><br>
+    <h1 class="green"><?php echo $promotion[title];  ?> £<?php  echo $promotion[price] ?>/month</h1><br>
     <p class="conditions">Conditions: <?php echo $promotion[conditions] ?></p>
     <br>
 
