@@ -12,7 +12,7 @@ include('includes/header.php');
     <br><h1>Campaigns</h1><br>
     <hr>
     <p id="justy">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p><br>
-    <p id="justy"><em>Click on any promotion to know more about it.</em></p><br><br>
+    <p id="justy"><em>Click on any promotion to learn more about it.</em></p><br><br>
 
 
     <ul>
