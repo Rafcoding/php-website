@@ -1,5 +1,5 @@
 <?php
-  define("TITLE", "Team - Musicfy");
+  define("TITLE", "Team - Solfy");
   include('includes/header.php');
 
  ?>

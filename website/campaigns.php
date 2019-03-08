@@ -1,7 +1,7 @@
 
 <?php
 
-define("TITLE", "Campaigns - Musicfy");
+define("TITLE", "Campaigns - Solfy");
 include('includes/header.php');
 
 ?>

@@ -1,5 +1,5 @@
 <?php
-  define("TITLE", "Subscriptions - Musicfy");
+  define("TITLE", "Subscriptions - Solfy");
   include('includes/header.php');
 
 // using preg-replace

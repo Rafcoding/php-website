@@ -1,6 +1,6 @@
 <?php
 
-define("TITLE", "Contact - Musicfy");
+define("TITLE", "Contact - Solfy");
 include('includes/header.php');
 
 ?>
